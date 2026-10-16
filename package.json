@@ -1,0 +1,40 @@
+{
+  "name": "chord-stable-peg-monitor",
+  "version": "0.1.0",
+  "description": "Prices every dollar stablecoin on a chain at trade size through Chord's router and buys a depeg under 0.996. Paper by default.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "loop": "node index.js --loop"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "keywords": [
+    "ai-agent",
+    "trading-bot",
+    "defi",
+    "mcp",
+    "chord",
+    "stablecoin",
+    "depeg",
+    "bnb-chain",
+    "base",
+    "arbitrum",
+    "ethereum",
+    "avalanche",
+    "monad",
+    "robinhood",
+    "arc"
+  ],
+  "homepage": "https://github.com/tuantqse90/chord-stable-peg-monitor#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuantqse90/chord-stable-peg-monitor.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.57.7"
+  }
+}
